@@ -1,13 +1,12 @@
-export BERT_BASE_DIR=/home/hjcai/8RTX/BERT/pytorch_pretrained_BERT/output/Extract-Classify4Quad-2nd/rest16/test
+export BERT_BASE_DIR=/home/hjcai/BERT/uncased_L-12_H-768_A-12
 export DATA_DIR=/home/hjcai/8RTX/BERT/pytorch_pretrained_BERT/Extract-Classify4Quad-2nd
 export TASK_NAME=categorysenti
 export MODEL=categorysenti
 export DOMAIN=rest16
 
-echo '/home/hjcai/BERT/uncased_L-12_H-768_A-12'
-echo $BERT_BASE_DIR
 python run_classifier_step2.py \
   --task_name $TASK_NAME \
+  --do_train \
   --do_eval \
   --domain_type $DOMAIN \
   --model_type $MODEL\
