@@ -10,7 +10,7 @@ This is data and code for the paper: Aspect-Category-Opinion-Sentiment Quadruple
 * Pytorch 1.5.1
 
 ## Citation
-If the code is used in your research, please cite our paper as follows:
+If you use the datasets and code in your research, please cite our paper as follows:
 ```
 @inproceedings{cai2021aspect,
   title={Aspect-Category-Opinion-Sentiment Quadruple Extraction with Implicit Aspects and Opinions},
