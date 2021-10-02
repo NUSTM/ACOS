@@ -1,0 +1,1 @@
+Each line consists of review text and its quadruples. Each quadruple is formalized as 'Aspect Category Sentiment Opinion'. Under the sentiment category, the 0, 1, 2 represents negative, neutral, and positive, respectively.
