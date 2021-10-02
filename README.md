@@ -35,7 +35,6 @@ export TASK_NAME=quad
 export MODEL=quad
 export DOMAIN=laptop
 
-echo '/home/hjcai/BERT/uncased_L-12_H-768_A-12 /8RTX'
 echo $BERT_BASE_DIR
 python run_step1.py \
   --task_name $TASK_NAME \
@@ -73,8 +72,6 @@ export TASK_NAME=categorysenti
 export MODEL=categorysenti
 export DOMAIN=laptop
 
-echo '/home/hjcai/BERT/uncased_L-12_H-768_A-12'
-echo $BERT_BASE_DIR
 python run_classifier_step2.py \
   --task_name $TASK_NAME \
   --do_train \
