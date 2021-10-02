@@ -3,7 +3,7 @@
 import codecs as cs
 
 # , 'rest16'
-for domian_type in ['laptop-weak']:
+for domian_type in ['laptop']:
     f = cs.open('/home/hjcai/8RTX/BERT/pytorch_pretrained_BERT/output/Extract-Classify4Quad/'+domian_type+'/pred4pipeline.txt', 'r').readlines()
     wf = cs.open('/home/hjcai/8RTX/BERT/pytorch_pretrained_BERT/Extract-Classify4Quad-2nd/data/'+domian_type+'_test_pair_1st.tsv', 'w')
 
