@@ -19,4 +19,4 @@ python run_classifier_step2.py \
   --train_batch_size 16 \
   --learning_rate 5e-5 \
   --num_train_epochs 15.0 \
-  --output_dir /home/hjcai/8RTX/BERT/pytorch_pretrained_BERT/output/Extract-Classify4Quad-2nd/$DOMAIN/laptop-weak-2
+  --output_dir /home/hjcai/8RTX/BERT/pytorch_pretrained_BERT/output/Extract-Classify4Quad-2nd/$DOMAIN/laptop
