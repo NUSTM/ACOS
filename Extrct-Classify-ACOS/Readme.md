@@ -16,7 +16,7 @@ Extract aspects and opinions from review text:
 sh run_step1.sh
 ```
 
-where the run_step1.sh (in fold Extract-Classify4Quad) script is:
+where the run_step1.sh (in fold step1) script is:
 
 ```
 export BERT_BASE_DIR=/home/hjcai/8RTX/BERT/uncased_L-12_H-768_A-12
@@ -53,7 +53,7 @@ Perform category-sentiment classification given candidate aspect-opinion pairs:
 sh run_ext.sh
 ```
 
-where the run_ext.sh (in fold Extract-Classify4Quad-2nd) script is :
+where the run_ext.sh (in fold step2) script is :
 
 ```
 export BERT_BASE_DIR=/home/hjcai/8RTX/BERT/uncased_L-12_H-768_A-12
