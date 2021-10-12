@@ -24,7 +24,10 @@ The Aspect-Category-Opinion-Sentiment (ACOS) Quadruple Extraction aims to extrac
 ## Datasets
 Two new datasets, Restaurant-ACOS and Laptop-ACOS are constructed for the ACOS Quadruple Extraction task. Following are the comparison between the sizes of our two ACOS Quadruple datasets and existing representative ABSA datasets:
 
-![Alt text](img/stat.PNG?raw=true "stat")
+<p align="center">
+<img src="img/stat.PNG" width="85%" />
+</p>
+<!-- ![Alt text](img/stat.PNG?raw=true "stat") -->
 
 ## Methods
 We benchmark the ACOS Quadruple Extraction task with four baseline systems: 
@@ -35,7 +38,7 @@ We benchmark the ACOS Quadruple Extraction task with four baseline systems:
 
 We provided the source code of Extract-Classify-ACOS. The source code of the other three methods will be provided soon.
 
-The Overview of our Extract-Classify-ACOS method. The first step performs aspect-opinion co-extraction, and the second step predicts category-sentiment given the aspect-opinion pairs.
+Overview of our Extract-Classify-ACOS method. The first step performs aspect-opinion co-extraction, and the second step predicts category-sentiment given the aspect-opinion pairs.
 
 <p align="center">
   <img src="img/method.jpg" width="50%"/>
@@ -43,6 +46,11 @@ The Overview of our Extract-Classify-ACOS method. The first step performs aspect
 <!-- ![Alt text:center](img/method.PNG?raw=true "method") -->
 
 ## Results
+The ACOS quadruple extraction performance of four different systems on the two datasets:
+
+<p align="center">
+  <img src="img/main_results.PNG" width="70%"/>
+</p>
 
 ## Citation
 If you use the data and code in your research, please cite our paper as follows:
