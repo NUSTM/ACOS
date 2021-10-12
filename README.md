@@ -3,11 +3,22 @@
 We are making the final preparations for the release of our data and code. They will be coming soon. -->
 
 # Aspect-Category-Opinion-Sentiment (ACOS) Quadruple Extraction
-This repo contains the data sets and source code of our paper: Aspect-Category-Opinion-Sentiment Quadruple Extraction with Implicit Aspects and Opinions [[ACL 2021]](https://aclanthology.org/2021.acl-long.29.pdf).
+This repo contains the data sets and source code of our paper: 
 
-## Requirements
-* Python 3.7
-* Pytorch 1.5.1
+Aspect-Category-Opinion-Sentiment Quadruple Extraction with Implicit Aspects and Opinions [[ACL 2021]](https://aclanthology.org/2021.acl-long.29.pdf).
+- We introduce a new ABSA task, named Aspect-Category-Opinion-Sentiment Quadruple (ACOS) Extraction, to extract fine-grained ABSA Quadruples from product reviews;
+- We construct two new datasets for the task, with ACOS quadruple annotations, and benchmark the task with four baseline systems;
+- Our task and datasets provide a good support for discovering implicit opinion targets and implicit opinion expressions in product reviews.
+
+## Task
+
+
+## Datasets
+
+
+## Methods
+
+
 
 ## Citation
 If you use the data and code in your research, please cite our paper as follows:
