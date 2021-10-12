@@ -27,7 +27,7 @@ Two new datasets, Restaurant-ACOS and Laptop-ACOS are constructed for the ACOS Q
 ![Alt text](img/stat.PNG?raw=true "stat")
 
 ## Methods
-We develop four baseline systems: 
+We benchmark the ACOS Quadruple Extraction task with four baseline systems: 
 - Double-Propagation-ACOS
 - JET-ACOS
 - TAS-BERT-ACOS
