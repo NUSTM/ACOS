@@ -42,6 +42,7 @@ The Overview of our Extract-Classify-ACOS method. The first step performs aspect
 </p>
 <!-- ![Alt text:center](img/method.PNG?raw=true "method") -->
 
+## Results
 
 ## Citation
 If you use the data and code in your research, please cite our paper as follows:
