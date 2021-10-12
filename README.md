@@ -29,7 +29,7 @@ Two new datasets, Restaurant-ACOS and Laptop-ACOS are constructed for the ACOS Q
 ![Alt text](img/stat.PNG?raw=true "stat")
 
 ## Method
-Overview of our Extract-Classify-ACOS method. The first step performs aspect-opinion co-extraction, and the second step predicts category-sentiment given the extracted aspect-opinion pairs.
+Overview of our Extract-Classify-ACOS method. The first step performs aspect-opinion co-extraction, and the second step predicts category-sentiment given the aspect-opinion pairs.
 
 <p align="center">
   <img src="img/method.jpg" width="60%"/>
