@@ -17,7 +17,14 @@ Aspect-Category-Opinion-Sentiment Quadruple Extraction with Implicit Aspects and
 ## Task
 The Aspect-Category-Opinion-Sentiment (ACOS) Quadruple Extraction aims to extract all aspect-category-opinion-sentiment quadruples in a review sentence and provide full support for aspect-based sentiment analysis with implicit aspects and opinions.
 
-![Alt text](img/figure1.PNG?raw=true "Example")
+<p align="center">
+<img src="img/figure1.PNG" width="60%" />
+</p>
+
+<p align="center">
+<img src="img/figure1.pdf" width="60%" />
+</p>
+<!-- ![Alt text](img/figure1.PNG?raw=true "Example") -->
 
 ## Datasets
 Two new datasets, Restaurant-ACOS and Laptop-ACOS are constructed for the ACOS Quadruple Extraction task. Following are the comparison between the sizes of our two ACOS Quadruple datasets and existing representative ABSA datasets:
