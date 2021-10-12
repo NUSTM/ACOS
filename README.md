@@ -21,9 +21,6 @@ The Aspect-Category-Opinion-Sentiment (ACOS) Quadruple Extraction aims to extrac
 <img src="img/figure1.PNG" width="60%" />
 </p>
 
-<p align="center">
-<img src="img/figure1.pdf" width="60%" />
-</p>
 <!-- ![Alt text](img/figure1.PNG?raw=true "Example") -->
 
 ## Datasets
@@ -35,7 +32,7 @@ Two new datasets, Restaurant-ACOS and Laptop-ACOS are constructed for the ACOS Q
 Overview of our Extract-Classify-ACOS method. The first step performs aspect-opinion co-extraction, and the second step predicts category-sentiment given the extracted aspect-opinion pairs.
 
 <p align="center">
-  <img src="img/method.PNG" />
+  <img src="img/method.jpg" width="60%"/>
 </p>
 <!-- ![Alt text:center](img/method.PNG?raw=true "method") -->
 
