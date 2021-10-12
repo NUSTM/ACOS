@@ -52,6 +52,12 @@ The ACOS quadruple extraction performance of four different systems on the two d
   <img src="img/main_results.PNG" width="70%"/>
 </p>
 
+We further investigate the ability of different systems in addressing the implicit aspects/opinion problem:
+
+<p align="center">
+  <img src="img/separate_results.PNG" width="70%"/>
+</p>
+
 ## Citation
 If you use the data and code in your research, please cite our paper as follows:
 ```
