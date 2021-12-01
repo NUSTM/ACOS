@@ -23,6 +23,8 @@ The Aspect-Category-Opinion-Sentiment (ACOS) Quadruple Extraction aims to extrac
 
 ## Datasets
 Two new datasets, Restaurant-ACOS and Laptop-ACOS are constructed for the ACOS Quadruple Extraction task. Following are the comparison between the sizes of our two ACOS Quadruple datasets and existing representative ABSA datasets:
+- Restaurant-ACOS is an extension of the existing SemEval Restaurant dataset, based on which we add the annotation of implicit aspects, implicit opinions, and the quadruples;
+- Laptop-ACOS is a brand new one collected from the Amazon Laptop domain. It has twice size of the SemEval Loptop dataset, and is annotated with quadruples containing all explicit/implicit aspects and opinions.
 
 <p align="center">
 <img src="img/stat.PNG" width="85%" />
