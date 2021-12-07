@@ -7,7 +7,7 @@ BERT_BASE_DIR: The directory containing config, pytorch_model, and vocab files o
 
 BASE_DIR: The directory of current project.
 
-DATA_DIR: The data directory DIR, where data files are stored at 'DIR/data/.' as DOMAIN_YEAR_train.tsv (e.g., rest16_train_quad_bert.tsv).
+DATA_DIR: The data directory DIR, where data files are stored at 'DIR/tokenized_data/.' as DOMAIN_YEAR_train.tsv (e.g., rest16_train_quad_bert.tsv).
 
 output_dir: Output directory containing the fine-tuned language model.
 
