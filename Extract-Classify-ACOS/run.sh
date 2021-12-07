@@ -22,7 +22,7 @@ python run_step1.py \
   --output_dir $BASE_DIR/output/Extract-Classify-QUAD/${DOMAIN}_1st/
 
 
-python data/get_1st_pairs.py $BASE_DIR $DOMAIN
+python tokenized_data/get_1st_pairs.py $BASE_DIR $DOMAIN
 
 TASK_NAME=categorysenti
 MODEL=categorysenti
