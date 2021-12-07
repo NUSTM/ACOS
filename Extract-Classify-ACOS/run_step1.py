@@ -232,7 +232,7 @@ def main():
     valid_gold = []
     if args.do_eval:
         eval_examples = processor.get_dev_examples(args.data_dir, args.domain_type)
-        f = cs.open(args.data_dir+'/data/'+args.domain_type +'_test_quad_bert.tsv', 'r').readlines()
+        f = cs.open(args.data_dir+'/tokenized_data/'+args.domain_type +'_test_quad_bert.tsv', 'r').readlines()
         for line in f:
             cur_exist_imp_aspect = 0
             cur_exist_imp_opinion = 0
@@ -301,7 +301,7 @@ def main():
         exist_imp_opinion = torch.tensor([f.exist_imp_opinion for f in train_features], dtype=torch.long)
 
         valid_examples = processor.get_valid_examples(args.data_dir, args.domain_type)
-        f = cs.open(args.data_dir+'/data/'+args.domain_type +'_dev_quad_bert.tsv', 'r').readlines()
+        f = cs.open(args.data_dir+'/tokenized_data/'+args.domain_type +'_dev_quad_bert.tsv', 'r').readlines()
         for line in f:
             cur_exist_imp_aspect = 0
             cur_exist_imp_opinion = 0
