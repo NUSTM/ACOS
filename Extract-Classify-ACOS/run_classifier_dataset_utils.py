@@ -137,23 +137,23 @@ class QuadProcessor(DataProcessor):
     def get_train_examples(self, data_dir, domain_type):
         """See base class."""
         string = domain_type
-        logger.info("LOOKING AT {}".format(os.path.join(data_dir, "data/"+string+"_train_quad_bert.tsv")))
+        logger.info("LOOKING AT {}".format(os.path.join(data_dir, "tokenized_data/"+string+"_train_quad_bert.tsv")))
         return self._create_examples(
-            self._read_tsv(os.path.join(data_dir, "data/"+string+"_train_quad_bert.tsv")), "train")
+            self._read_tsv(os.path.join(data_dir, "tokenized_data/"+string+"_train_quad_bert.tsv")), "train")
 
     def get_valid_examples(self, data_dir, domain_type):
         """See base class."""
         string = domain_type
-        logger.info("LOOKING AT {}".format(os.path.join(data_dir, "data/"+string+"_dev_quad_bert.tsv")))
+        logger.info("LOOKING AT {}".format(os.path.join(data_dir, "tokenized_data/"+string+"_dev_quad_bert.tsv")))
         return self._create_examples(
-            self._read_tsv(os.path.join(data_dir, "data/"+string+"_dev_quad_bert.tsv")), "valid")
+            self._read_tsv(os.path.join(data_dir, "tokenized_data/"+string+"_dev_quad_bert.tsv")), "valid")
 
     def get_dev_examples(self, data_dir, domain_type):
         """See base class."""
         string = domain_type
-        logger.info("LOOKING AT {}".format(os.path.join(data_dir, "data/"+string+"_test_quad_bert.tsv")))
+        logger.info("LOOKING AT {}".format(os.path.join(data_dir, "tokenized_data/"+string+"_test_quad_bert.tsv")))
         return self._create_examples(
-            self._read_tsv(os.path.join(data_dir, "data/"+string+"_test_quad_bert.tsv")), "test")
+            self._read_tsv(os.path.join(data_dir, "tokenized_data/"+string+"_test_quad_bert.tsv")), "test")
 
     def get_labels(self, domain_type):
         """See base class."""
@@ -190,22 +190,22 @@ class CategorySentiProcessor(DataProcessor):
     def get_train_examples(self, data_dir, domain_type):
         """See base class."""
         string = domain_type
-        logger.info("LOOKING AT {}".format(os.path.join(data_dir, "data/"+string+"_train_pair.tsv")))
+        logger.info("LOOKING AT {}".format(os.path.join(data_dir, "tokenized_data/"+string+"_train_pair.tsv")))
         return self._create_examples(
-            self._read_tsv(os.path.join(data_dir, "data/"+string+"_train_pair.tsv")), "train")
+            self._read_tsv(os.path.join(data_dir, "tokenized_data/"+string+"_train_pair.tsv")), "train")
 
     def get_valid_examples(self, data_dir, domain_type):
         """See base class."""
         string = domain_type
-        logger.info("LOOKING AT {}".format(os.path.join(data_dir, "data/"+string+"_dev_pair.tsv")))
+        logger.info("LOOKING AT {}".format(os.path.join(data_dir, "tokenized_data/"+string+"_dev_pair.tsv")))
         return self._create_examples(
-            self._read_tsv(os.path.join(data_dir, "data/"+string+"_dev_pair.tsv")), "valid")
+            self._read_tsv(os.path.join(data_dir, "tokenized_data/"+string+"_dev_pair.tsv")), "valid")
 
     def get_dev_examples(self, data_dir, domain_type):
         """See base class."""
         string = domain_type
         return self._create_examples(
-            self._read_tsv(os.path.join(data_dir, "data/"+string+"_test_pair_1st.tsv")), "test")
+            self._read_tsv(os.path.join(data_dir, "tokenized_data/"+string+"_test_pair_1st.tsv")), "test")
 
     def get_labels(self, domain_type):
         """See base class."""
