@@ -168,7 +168,7 @@ def main():
     #for entity#attribute
     if args.do_eval:
         eval_examples = processor.get_dev_examples(args.data_dir, args.domain_type)
-        f = cs.open(args.data_dir+'/data/'+args.domain_type+'_test_pair.tsv', 'r').readlines()
+        f = cs.open(args.data_dir+'/tokenized_data/'+args.domain_type+'_test_pair.tsv', 'r').readlines()
         eval_quad_text, eval_quad_gold = read_pair_gold(f, args)
 
         eval_features = convert_examples_to_features2nd(
@@ -212,7 +212,7 @@ def main():
     valid_examples = processor.get_valid_examples(args.data_dir, args.domain_type)
     valid_features = convert_examples_to_features2nd(
         valid_examples, label_list, args.max_seq_length, tokenizer, task_name)
-    f = cs.open(args.data_dir+'/data/'+args.domain_type+'_dev_pair.tsv', 'r').readlines()
+    f = cs.open(args.data_dir+'/tokenized_data/'+args.domain_type+'_dev_pair.tsv', 'r').readlines()
     valid_quad_text, valid_quad_gold = read_pair_gold(f, args)
 
     valid_tokens_len = torch.tensor([f.tokens_len for f in valid_features], dtype=torch.long)
