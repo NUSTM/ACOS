@@ -1,6 +1,6 @@
 BERT_BASE_DIR=/mnt/nfs-storage-titan/BERT/uncased_L-12_H-768_A-12
 BASE_DIR=/mnt/nfs-storage-titan/BERT/pytorch_pretrained_BERT
-DATA_DIR=$BASE_DIR/ACOS-main/Extrct-Classify-ACOS
+DATA_DIR=$BASE_DIR/ACOS-main/Extract-Classify-ACOS
 TASK_NAME=quad
 MODEL=quad
 DOMAIN=rest16
