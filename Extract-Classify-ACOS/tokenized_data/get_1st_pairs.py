@@ -13,7 +13,7 @@ if not os.path.exists(cur_dir+'_1st'):
     os.makedirs(cur_dir+'_1st')
 
 f = cs.open(cur_dir+'_1st'+'/pred4pipeline.txt', 'r').readlines()
-wf = cs.open(base_dir+'/ACOS-main/Extrct-Classify-ACOS/data/'+domian_type+'_test_pair_1st.tsv', 'w')
+wf = cs.open(base_dir+'/ACOS-main/Extract-Classify-ACOS/tokenized_data/'+domian_type+'_test_pair_1st.tsv', 'w')
 
 for line in f:
     asp = []; opi = []
