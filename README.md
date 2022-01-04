@@ -13,7 +13,7 @@ Aspect-Category-Opinion-Sentiment Quadruple Extraction with Implicit Aspects and
 
 
 ## Task
-The Aspect-Category-Opinion-Sentiment (ACOS) Quadruple Extraction aims to extract all aspect-category-opinion-sentiment quadruples in a review sentence and provide full support for aspect-based sentiment analysis with implicit aspects and opinions.
+The Aspect-Category-Opinion-Sentiment (ACOS) Quadruple Extraction aims to extract all aspect-category-opinion-sentiment quadruples, i.e., (aspect expression, aspect category, opinion expression, sentiment polarity), in a review sentence including implicit aspect and implicit opinion.
 
 <p align="center">
 <img src="img/figure1.PNG" width="50%" />
