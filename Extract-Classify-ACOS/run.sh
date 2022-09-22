@@ -18,7 +18,7 @@ python run_step1.py \
   --max_seq_length 128 \
   --train_batch_size 24 \
   --learning_rate 2e-5 \
-  --num_train_epochs 1.0 \
+  --num_train_epochs 30 \
   --output_dir $BASE_DIR/output/Extract-Classify-QUAD/${DOMAIN}_1st/
 
 
@@ -39,5 +39,5 @@ python run_step2.py \
   --max_seq_length 128 \
   --train_batch_size 16 \
   --learning_rate 5e-5 \
-  --num_train_epochs 1.0 \
+  --num_train_epochs 30 \
   --output_dir $BASE_DIR/output/Extract-Classify-QUAD/${DOMAIN}_2nd
