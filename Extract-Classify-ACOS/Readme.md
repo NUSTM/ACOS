@@ -14,6 +14,7 @@ output_dir: Output directory containing the fine-tuned language model.
 ## Requirements
 * Python 3.7
 * Pytorch 1.8
+* pytorch-crf 0.7.2
 
 **Running**
 
